@@ -57,6 +57,7 @@ textarea::placeholder {
 pre {
     width: max-content;
     color: rgba(0, 245, 255, 1.85);
+    font-size: 1rem;
 /*    margin-bottom: 0.5em;*/
 }
 
@@ -97,13 +98,16 @@ pre {
     justify-content: center;
     margin: 5px auto;
     height: 100%;
-    max-width: 768px;
+    max-width: 500px;
     }
     .boxone {
         width: 100%;
     }
         pre {
-        font-size: 16px;
+        font-size: 0.8rem;
+    }
+    textarea {
+        font-size: 3.5em;
     }
     
 }
@@ -114,13 +118,47 @@ pre {
     justify-content: center;
     margin: 5px auto;
     height: 100%;
-    max-width: 100%;
+    max-width: 425px;
     }
     .boxone {
         width: 100%;
     }
     pre {
-        font-size: 12px;
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+    }
+        textarea {
+        font-size: 2em;
+    }
+        .btn {
+        font-size: 9px;
+    }
+    
+}
+
+@media (max-width: 385px){
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px auto;
+    height: 100%;
+    max-width: 100%;
+    margin-left: -5px;
+    }
+    .boxone {
+        width: 90%;
+        margin: 0 auto;
+    }
+    pre {
+        font-size: 0.6rem;
+    }
+    .btn {
+        font-size: 11px;
+    }
+            textarea {
+        font-size: 2em;
+        margin-left: -40px;
     }
     
 }
