@@ -89,3 +89,31 @@ pre {
     padding: 4.5em 5em;
     border: 1px solid white;
 }
+
+@media (max-width: 768px){
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px auto;
+    height: 100%;
+    max-width: 768px;
+    }
+    .boxone {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px auto;
+    height: 100%;
+    max-width: 100%;
+    }
+    .boxone {
+        width: 100%;
+    }
+}
