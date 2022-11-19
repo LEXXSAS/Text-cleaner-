@@ -42,6 +42,7 @@ textarea {
     overflow: auto;
     width: 100%;
     resize: none;
+    overflow: auto;
 }
 
 p {
